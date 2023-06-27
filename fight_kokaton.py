@@ -149,7 +149,7 @@ class Score:
     def __init__(self):
         self.score=0
     def update(self,screen):
-        self.txt=pg.font.Font(None,80).render(str(self.score),True,(0,0,0))    
+        self.txt=pg.font.Font(None,80).render(str(self.score),True,(0,0,255))    
         screen.blit(self.txt,[100,100])
 
 
